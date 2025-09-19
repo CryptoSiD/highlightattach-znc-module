@@ -17,7 +17,7 @@ When you're detached from a channel and someone mentions your nick in a message,
 
 1. Clone the repository or download the `highlightattach.cpp` file:
    ```bash
-   git clone https://github.com/CryptoSiD/znc-highlightattach.git
+   git clone https://github.com/CryptoSiD/highlightattach-znc-module.git
    cd znc-highlightattach
    ```
 2. Compile the module:
