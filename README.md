@@ -15,14 +15,18 @@ When you're detached from a channel and someone mentions your nick in a message,
 
 ## Installation
 
-1. Download or copy the `highlight_reattach.cpp` file
+1. Clone the repository or download the `highlightattach.cpp` file:
+   ```bash
+   git clone https://github.com/CryptoSiD/znc-highlightattach.git
+   cd znc-highlightattach
+   ```
 2. Compile the module:
    ```bash
-   znc-buildmod highlight_reattach.cpp
+   znc-buildmod highlightattach.cpp
    ```
 3. Load the module in ZNC:
    ```irc
-   /msg *status loadmod highlight_reattach
+   /msg *status loadmod highlightattach
    ```
 
 ## Usage
@@ -33,7 +37,7 @@ Once loaded, the module works automatically in the background. No commands or co
 - The module is completely transparent - it just works
 - To disable, simply unload the module: 
   ```irc
-  /msg *status unloadmod highlight_reattach
+  /msg *status unloadmod highlightattach
   ```
 
 ## Requirements
